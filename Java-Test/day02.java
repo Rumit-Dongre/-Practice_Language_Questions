@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class day02 {
 
@@ -83,23 +84,47 @@ public class day02 {
         // System.out.println(spaces);
 
         // ^^
-
+        
         // @ 16 Write a Java program to create and display unique three-digit number
         // using 1, 2, 3, 4. Also count how many three-digit numbers are there.
 
-        for (int i = 1; i <= 4; i++) {
-            for (int j = 1; j <= 4; j++) {
-                for (int k = 1; k <= 4; k++) {
+        // for (int i = 1; i <= 4; i++) {
+        //     for (int j = 1; j <= 4; j++) {
+        //         for (int k = 1; k <= 4; k++) {
 
-                    if (i != j && i != k && k != j) {
-                        System.out.println(i + " " + j + " " + k);
+        //             if (i != j && i != k && k != j) {
+        //                 System.out.println(i + " " + j + " " + k);
 
-                    }
+        //             }
 
-                }
+        //         }
 
-            }
-        }
+        //     }
+        // }
+        
+
+        
+        
+        // ^^
+        //@ 17 Write a Java program to print the ascii value of a given characte  
+        
+        int a = '}';
+        
+        System.out.println(a);
+
+
+        // ^^
+        //@ 18 Write a Java program to input and display your password
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Password");
+        String password = sc.next();
+        System.out.println("Your Password is : " + password);
+
+
+        //@ 19 Write a Java program to find the size of a specified fil
+        System.out.println();
 
     }
 }
