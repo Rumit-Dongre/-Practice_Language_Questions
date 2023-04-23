@@ -6,6 +6,7 @@ public class java01_String {
 
         String s = "Hello Rumit";
         System.out.println(s);
+        
         // ^ Whenever a String Object is created as a literal, the object will be
         // created in the String constant pool. This allows JVM to optimize the
         // initialization of String literal.
